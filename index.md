@@ -10,24 +10,19 @@
 
 ## Overview
 
-Warrior Cravings is a web application that provides a chance to view the many food choices on campus (i.e. Campus Center, Food Trucks, Paradise Palms, etc.). The following elements may be included in the web application: 
+The problem: There are many food choices on campus: campus center, food trucks, Manoa Gardens, Paradise Palms, vending machines, and so forth. Let’s say you have a desire for chinese food today for lunch. What places on campus are serving chinese food menu items today? Alternatively, let’s say that you love the fresh salmon fillet at Campus Center, but that dish is only served once every few weeks. How do you find out on the day that it’s available?
 
-* [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
-* [React](https://reactjs.org/) for component-based UI implementation and routing.
-* [Semantic UI React](https://react.semantic-ui.com/) CSS Framework for UI design.
-* [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
+The solution: The Manoa Munchie app enables you to login on your phone and determine:
 
-It also provides code that implements a variety of useful design concepts, including:
+What specific menu items will be available today at campus center locations;
+What food is available right now.
+When a style of food you love is available today.
 
-* Three primary collections (Profiles, Projects, Interests) as well as three "join" Collections (ProfilesInterests, ProfilesProjects, and ProjectsInterests) that implement many-to-many relationships between them.
-* Top-level index pages (Profiles, Interests, and Projects) that show how to manipulate these six collections in various ways.
-* Initialization code to define default Profiles, Interests, and Projects and relations between them.
-* A simple Filter page to illustrate how to perform simple queries on the database and display the results.
-* Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
-* Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
-* Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
-* Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
-* Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
+Ouir app should provides a consolidated, easy to use source directory of menu items taken from the UHM Food Vendors and Manoa Dining Services. In addition to organizing menus by vendor, it should also organize the data by menu item type (ethnicity, vegan, etc.).
+
+Users will be able to indicate preferences and/or food types to exclude in their profile, which will help the app to present more useful choices.
+
+For places with weekly or daily changing menus, vendors should be able to login to provide this data.
 
 ## User Guide
 
