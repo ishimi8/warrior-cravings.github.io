@@ -18,7 +18,7 @@ What specific menu items will be available today at campus center locations;
 What food is available right now.
 When a style of food you love is available today.
 
-Ouir app should provides a consolidated, easy to use source directory of menu items taken from the UHM Food Vendors and Manoa Dining Services. In addition to organizing menus by vendor, it should also organize the data by menu item type (ethnicity, vegan, etc.).
+Our app should provides a consolidated, easy to use source directory of menu items taken from the UHM Food Vendors and Manoa Dining Services. In addition to organizing menus by vendor, it should also organize the data by menu item type (ethnicity, vegan, etc.).
 
 Users will be able to indicate preferences and/or food types to exclude in their profile, which will help the app to present more useful choices.
 
